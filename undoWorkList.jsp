@@ -4,7 +4,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>问题管理待办页面xxxx</title>
+    <title>问题管理待办页面</title>
   </head>
   <body>
   
@@ -21,6 +21,7 @@
 $(function(){
 	showPage("tab1","undolistUnSign.do");
 })
+function showPage1(){}
 //切换页面
 function showPage(tabId, url){
 	$('#maintab a[href="#'+tabId+'"]').tab('show'); // 显示点击的tab页面
